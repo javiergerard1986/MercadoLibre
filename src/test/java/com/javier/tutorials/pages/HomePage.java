@@ -63,7 +63,7 @@ public class HomePage extends BasePage{
 	}
 	
 	/**
-	 * Method to logout from the system
+	 * Method to logout from the MercadoLibre system
 	 * @return HomePage
 	 * @author javier.gerard
 	 */
