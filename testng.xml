@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<suite name="Login and Logout">
-
-	<test name="Login">
-	
-		<classes>
-		
-			<class name = "com.javier.tutorials.tests.Login" />
-			<class name = "com.javier.tutorials.tests.Logout" />
-		
-		</classes>
-	
-	</test>
-
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Login Test">
+    <classes>
+      <class name="com.javier.tutorials.tests.Login"/>
+    </classes>
+  </test>
+  <test name="Logout Test">
+    <classes>
+      <class name="com.javier.tutorials.tests.Logout"/>
+    </classes>
+  </test>
 </suite>
