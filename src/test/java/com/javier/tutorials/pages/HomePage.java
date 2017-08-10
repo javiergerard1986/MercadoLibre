@@ -14,7 +14,7 @@ public class HomePage extends BasePage{
 	//--------------------------
 	@FindBy(how = How.CSS, using = ".option-register")
 	private WebElement btnRegister;
-
+	
 	@FindBy(how = How.CSS, using = ".option-login.nav-header-lnk-login")
 	private WebElement btnLogin;
 	
@@ -53,12 +53,12 @@ public class HomePage extends BasePage{
 	 * @return LoginPage
 	 * @author javier.gerard
 	 */
-	public LoginPage navigateToLoginPage(){
+	public ProvideUsernamePage navigateToLoginPage(){
 		
 		Reporter.log("Clicking on Login button");
 		btnLogin.click();
 		
-		return PageFactory.initElements(driver, LoginPage.class);
+		return PageFactory.initElements(driver, ProvideUsernamePage.class);
 		
 	}
 	

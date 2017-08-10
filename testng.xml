@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Login and Logout">
+
+	<test name="Login">
+	
+		<classes>
+		
+			<class name = "com.javier.tutorials.tests.Login" />
+			<class name = "com.javier.tutorials.tests.Logout" />
+		
+		</classes>
+	
+	</test>
+
+</suite>
